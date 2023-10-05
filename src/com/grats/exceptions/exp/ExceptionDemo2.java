@@ -17,6 +17,7 @@ public class ExceptionDemo2 {
 				
 				if(d==0) {
 					throw new MyException("Can't divide by zero");
+//					throw new ArithmeticException();
 //					System.out.println(":d:"+d);
 					
 //					throw new ArithmeticException("Can't divide by zero");

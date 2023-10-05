@@ -11,18 +11,15 @@ public class ExceptionDemo1 {
 			int b=a/100;
 			int c=arr[1];
 			Class.forName("com.grats.st.variable.Company");
-		}catch(Throwable ex) {
-			ex.printStackTrace();
+		}catch(ArithmeticException ex) {
+			System.out.println("===>ArithmeticException");
+//			ex.printStackTrace();
+		}catch(ArrayIndexOutOfBoundsException ex1) {
+			System.out.println("====?ArrayIndexOutOfBoundsException");
+//			ex1.printStackTrace();
+		}catch(Exception ex) {
+			System.out.println("====?Exception ");
 		}
-//		catch(Exception ex) {
-//			System.out.println("====?Exception ");
-//		}catch(ArithmeticException ex) {
-//			System.out.println("===>ArithmeticException");
-////			ex.printStackTrace();
-//		}catch(ArrayIndexOutOfBoundsException ex1) {
-//			System.out.println("====?ArrayIndexOutOfBoundsException");
-////			ex1.printStackTrace();
-//		}
 
 	}
 

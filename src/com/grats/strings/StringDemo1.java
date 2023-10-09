@@ -21,7 +21,7 @@ public class StringDemo1 {
 		String str4="Sachin";
 //		System.out.print(str1.hashCode()+" "+str4.hashCode()); 
 //		System.out.println(str1==str4);
-		String str5=new String("Sachin");
+		String str5=new String("   Sachin");
 		System.out.println(str2==str5);
 		
 		System.out.println(str2.equals(str5));

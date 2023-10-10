@@ -14,6 +14,7 @@ public class ArraysDemo1 {
 //		int rollNoArr[];
 //		
 		int[] rolNoA= {1001,1002,1003};
+		
 //		System.out.println(rolNoA.length);
 //		
 //		int[] arr1= new int[10];

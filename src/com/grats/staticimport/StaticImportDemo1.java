@@ -1,10 +1,5 @@
 package com.grats.staticimport;
 
-//import static com.grats.markerinterface.Employee.*;
-
-import java.util.Date;
-import java.sql.*;
-
 public class StaticImportDemo1 {
 
 	public static void main(String[] args) {

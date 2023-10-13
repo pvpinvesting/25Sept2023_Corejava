@@ -1,4 +1,4 @@
-package com.grats.markerinterface;
+package com.grats.gc;
 
 import java.io.Serializable;
 
@@ -21,6 +21,17 @@ public class Employee implements Serializable {
 		
 	}
 	
+	
+	
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		System.out.println("Employee finalize method called");
+		super.finalize();
+	}
+
+
+
 	public Employee(int empId, String empName, String address,String compCode) {
 		super();
 		this.empId = empId;

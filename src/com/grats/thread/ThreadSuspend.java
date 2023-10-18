@@ -10,7 +10,8 @@ public class ThreadSuspend extends Thread {
 			}
 			System.out.println(":i:"+i);
 		}
-		resume();
+		
+		//wait(), notify() and notify()
 		System.out.println(":ThreadSuspend:End:");
 	}
 	

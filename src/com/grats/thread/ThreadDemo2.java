@@ -20,7 +20,6 @@ public class ThreadDemo2 extends Thread {
 		// TODO Auto-generated method stub
 		ThreadDemo2 obj=new ThreadDemo2();
 		obj.start();
-
 	}
 
 }

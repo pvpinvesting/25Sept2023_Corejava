@@ -20,6 +20,7 @@ public class ArrayListDemo1 {
 			System.out.println(":ids:"+ids);
 		}
 		
+		
 //		Integer num=1001;
 //		System.out.println(":num:"+num);
 		

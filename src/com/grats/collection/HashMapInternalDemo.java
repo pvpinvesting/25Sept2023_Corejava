@@ -8,11 +8,7 @@ public class HashMapInternalDemo {
 		
 		int hashcode=str.hashCode();
 		int n=16;
-		int b=23;
-//		int index = hashcode && (n-1);
-//		if(n && b) {
-			
-//		}
+		int index = hashcode & (n-1);
 		System.out.println(":hashcode:"+hashcode+":index:"+index);
 	}
 	
@@ -31,7 +27,7 @@ public class HashMapInternalDemo {
 //		hashMapObj.put("AWB", "1008");
 //		hashMapObj.put("SAP", "1009");
 		
-//		calculateIndex("Grats"); //:hashcode:69063093:	:5
+//		calculateIndex("Grats"); //:hashcode:69063093:index:5
 //		calculateIndex("HCL"); //:hashcode:71345:index:1
 		calculateIndex("Exilant"); //:hashcode:349026545:index:1
 		

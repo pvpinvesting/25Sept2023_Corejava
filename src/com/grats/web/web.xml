@@ -1,0 +1,19 @@
+<web-app>
+	<servlet>
+		<servlet-name>firstweb</servlet-name>
+		<servlet-class>HelloWorldServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>firstweb</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>addition</servlet-name>
+		<servlet-class>AdditionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addition</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+</web-app>
